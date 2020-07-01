@@ -1,5 +1,20 @@
 game_hash = {
   :home => {
+    :team_name => "Brooklyn Nets",
+    :colors => [""],
+    :players =>[{
+      :player_name =>
+      :number =>
+      :shoe =>
+      :points =>
+      :rebounds =>
+      :assists =>
+      :steals =>
+      :blocks =>
+      :slam_dunks =>
+    }]
+  },
+  :away => {:home => {
     :team_name => "",
     :colors => [],
     :players =>[{
@@ -13,6 +28,6 @@ game_hash = {
       :blocks =>
       :slam_dunks =>
     }]
-  },
-  :away => {}
+    
+  }
 }
